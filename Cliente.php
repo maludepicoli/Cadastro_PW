@@ -20,7 +20,7 @@ include "Conexao.php";
             $conexao = new Conexao();
             $sql = "INSERT INTO
             Cliente(nome, contato, endereco, dataNasc, genero)
-            VALUES (:nome, :contato, :endereco, :dataNasc, :genero)";
+            VALUES (:nome, :contato, :endereco, :dataNasc, :genero);";
             $pdo = $conexao->Conectar();
             $preparo = $pdo->prepare($sql);
             $preparo->bindParam(':nome', $this->nome);

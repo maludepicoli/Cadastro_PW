@@ -8,7 +8,7 @@
         public function __construct(){
             $this->servidor = "fdb33.awardspace.net";
             $this->banco = $this->usuario = "4004051_aulapw";
-            $this->senha = "PWTCC3DS/";
+            $this->senha = "@TAREFAPW23";
         }
         
         public function Consultar($sql){

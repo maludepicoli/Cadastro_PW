@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script src="cadastroCliente.js"></script>
+    <style>
+        html{
+            background-color: #C3C6E6;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="txtNome">Nome</label>
+            <input type="text" placeholder="Nome" required
+            id="txtNome" name="txtNome" />
+        </div>
+        <div>
+            <label for="txtContato">Contato</label>
+            <input type="number" placeholder="Contato" required
+            id="txtContato" name="txtContato" />
+        </div>
+        <div>
+            <label for="txtEndereco">Endereço</label>
+            <input type="text" placeholder="Endereço" required
+            id="txtEndereco" name="txtEndereco" />
+        </div>
+        <div>
+            <label for="txtDataNascimento">Data de Nascimento</label>
+            <input type="date" placeholder="Data de Nascimento"
+            id="txtDataNascimento" name="txtDataNascimento" />
+        </div>
+        <div>
+            <label for="txtGenero">Gênero</label>
+            <input type="text" placeholder="Gênero" required
+            id="txtGenero" name="txtGenero" />
+        </div>
+        <div>
+            <input type="submit" value="Cadastrar" />
+        </div>
+    </form>
+</body>

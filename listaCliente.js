@@ -1,7 +1,7 @@
 let dados;
 
 function carregarDados(cb){
-    fetch("http://3dsfateckge.atwebpages.com/listarCliente.php")
+    fetch("http:///3dsfateckge.atwebpages.com/listarCliente.php")
         .then(conteudo => conteudo.text())
         .then((texto) => {
             dados = JSON.parse(texto);
